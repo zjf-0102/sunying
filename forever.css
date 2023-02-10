@@ -112,8 +112,8 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     /* pink yyds */
     background-color: pink;
     /* 往右下脚偏一些 */
@@ -131,7 +131,7 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
   }
 /* 画爱心桃 */
 .heart::before {
-    content: '';
+    content: '峰';
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -141,7 +141,7 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
 
 }
 .heart::after {
-    content: '';
+    content: '琳';
     width: 50px;
     height: 50px;
     border-radius: 50%;
