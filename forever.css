@@ -132,8 +132,8 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
 /* 画爱心桃 */
 .heart::before {
     content: '峰';
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     background-color: pink;
     position: absolute;
@@ -142,8 +142,8 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
 }
 .heart::after {
     content: '琳';
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     background-color: pink;
     position: absolute;
