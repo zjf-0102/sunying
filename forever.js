@@ -5,7 +5,7 @@ heart.addEventListener('click',function(){
     card.setAttribute("style","opacity:0");
     let x = document.createElement("audio");
      x.setAttribute("src", "background_music.mp3");
-     x.setAttribute("controls","controls");
+     x.setAttribute("autoplay",'true');
 
 // 打字效果
 let i =0
