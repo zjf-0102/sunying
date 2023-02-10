@@ -24,7 +24,7 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     align-items: center;
     flex-direction: column;
     font-size: 2.5em;
-    font-family: '楷体';
+    font-family: '华文行楷';
     position: relative;
     /* 使盒子具备透视效果 */
     transform-style: preserve-3d;
@@ -112,8 +112,8 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     /* pink yyds */
     background-color: pink;
     /* 往右下脚偏一些 */
@@ -122,7 +122,7 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     /* 动画的名字 */
     animation-name: change;
     /* 动画持续时间 */
-    animation-duration: 2.7s;
+    animation-duration: 2.0s;
     /* 无限次播放动画 永远对你心动 */
     animation-iteration-count: infinite;
     cursor: pointer;
