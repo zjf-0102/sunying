@@ -36,7 +36,7 @@ setTimeout(() => {
 // 背景出现
 function appearBackground(){
 setTimeout(()=>{
-box.style.opacity=0.5
+box.style.opacity=1
 },1500)
 }
 appearBackground()
