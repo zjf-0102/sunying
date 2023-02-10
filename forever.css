@@ -132,7 +132,6 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
 /* 画爱心桃 */
 .heart::before {
     content: '峰';
-    font-size: 3px；
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -143,7 +142,6 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
 }
 .heart::after {
     content: '琳';
-    font-size: 3px；
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -182,5 +180,6 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     background-size: cover;
     font-size: 25px;
     font-family: '华文行楷';
+    opacity: 0.5;
     transition: opacity 7s;
 }
