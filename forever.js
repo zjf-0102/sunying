@@ -5,7 +5,6 @@ heart.addEventListener('click',function(){
     card.setAttribute("style","opacity:0");
     let x = document.createElement("audio");
      x.setAttribute("src", "bgm.mp3");
-     x.setAttribute("controls", "controls");
      x.setAttribute("preload", "preload");
      x.setAttribute("autoplay",'autoplay');
 
